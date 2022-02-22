@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Redressed&display=swap');
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Redressed', cursive; */
+
+h1{
+    font-family: 'Bebas Nenu', cursive;
+}
+#tb1{
+    font-family: 'Redressed', cursive;
+    width:300px;
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+#tb1 > tbody > tr {
+    text-align:center;
+}
+#tb1 > tbody > tr:nth-child(2n){
+    background:cyan;
+}
+#tb1 > tbody > tr:nth-child(2n+1){
+    background:yellow;
+}
+#tb1 > tbody > tr:hover{
+    color:white;
+    background:black;
+}
+
+#tb1 > tbody > tr > td:nth-child(3){
+    text-align: right;
+}
